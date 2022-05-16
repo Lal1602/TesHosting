@@ -8,7 +8,7 @@ body{
 .profile {
     width: 100%;
     float: left;
-    color: black;
+    color: white;
     background-image: url("../images/wp9644735-1280x720-aesthetic-wallpapers.jpg");
     background-size : cover;
 }
@@ -61,6 +61,7 @@ body{
 .hobbies{
     width: 100%;
     float: left;
+    color: white;
     background-color: darkslategray;
     margin-top:  5px;
 }
@@ -103,6 +104,7 @@ body{
 
 .educations h3{
     text-align: center;
+    color: white;
     background-color:rgba(0, 255, 255, 0.3);
     padding: 20px;
     margin: 0;
@@ -116,6 +118,7 @@ body{
 .edu_left{
     float: left;
     width: 100%;
+    color: white;
     border-color: black;
     border-style: solid none solid solid;
     padding: 8px;
@@ -125,6 +128,7 @@ body{
 .edu_right{
     float: left;
     width: 100%;
+    color: white;
     border-color: black;
     border-style: none solid none none;
     padding: 8px;
