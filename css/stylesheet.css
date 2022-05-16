@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #152238;
+}
+.profile {
+    width: 100%;
+    float: left;
+    color: black;
+    background-image: url("../images/wp9644735-1280x720-aesthetic-wallpapers.jpg");
+    background-size : cover;
+}
+/* .wrapper_profile{
+    width: 100%;
+    float: left;
+    padding: 30px 20px;
+    background-color: rgba(127, 255, 212, 0.7);
+} */
+.photo_name{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: rgba(0, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.photo_name img{
+    height: 160px;
+    float: left;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.photo_name h1{
+    padding: 40px 50px;
+    float: left;
+}
+
+.photo_name a{
+    float: left;
+    text-align: center;
+}
+
+.detail_profile{
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+
+.detail_profile p{
+    margin-block-start: 2px;
+}
+
+.hobbies{
+    width: 100%;
+    float: left;
+    background-color: darkslategray;
+    margin-top:  5px;
+}
+
+.hobbies h2{
+    text-align: center;
+    background-color:rgba(0, 255, 255, 0.3);
+    padding: 20px;
+    margin: 0;
+}
+
+.flex_box{
+    display: flex;
+}
+
+.flex_box li{
+    flex: auto;
+    list-style: none;
+    padding: 30px;
+}
+
+.flex_box img{
+    width: 100%;
+    padding: 10%;
+    border-radius: 5%;
+    background-color: rgba(0, 255, 255, 0.3);
+}
+
+.flex_box h3{
+    text-align: center;
+}
+
+.educations{
+    width: 100%;
+    float: left;
+    background-color: darkslategray;
+    margin-top:  5px;
+    padding-bottom: 20px;
+}
+
+.educations h3{
+    text-align: center;
+    background-color:rgba(0, 255, 255, 0.3);
+    padding: 20px;
+    margin: 0;
+}
+
+.container{
+    margin: 20px auto;
+    width: 40%;
+}
+
+.edu_left{
+    float: left;
+    width: 100%;
+    border-color: black;
+    border-style: solid none solid solid;
+    padding: 8px;
+    text-align: left;
+}
+
+.edu_right{
+    float: left;
+    width: 100%;
+    border-color: black;
+    border-style: none solid none none;
+    padding: 8px;
+    text-align: right;
+}
